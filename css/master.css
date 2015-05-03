@@ -244,19 +244,10 @@ body {
     -ms-text-size-adjust: 100%
 }
 
-arrowUp
-
-(
-$
-size
-
-)
-{
-    width: 0
+arrowUp(size)  {  width: 0;    height: 0;
+    border-left-style: solid
 ;
-    height: 0
-;
-    border-left: $ size solid transparent
+    border-left-color: transparent
 ;
     border-right: $ size solid transparent
 ;
