@@ -465,6 +465,11 @@ arrowUp(size)  {  width: 0;    height: 0;
     margin: 0 auto 4%
 }
 
+.cv .skills h1 {
+    font-weight: 500;
+    color: midnightblue;
+    text-align: center
+}
 .cv .skills h2 {
     font-weight: 700;
     color: #444;
